@@ -116,9 +116,15 @@ Open `skeletal-variation.ipynb` and run the notebook cells.
 
 ## 📚 Learning Context
 
-This repository contains **my solutions** to exercises from the **Data Science Essentials with Python** course offered by **Cisco Networking Academy**.
+This project was completed as part of the **Data Science Essentials with Python** course offered by **Cisco Networking Academy**. It was designed to strengthen practical skills in Python programming, data manipulation with Pandas, and exploratory data analysis using real-world datasets.
 
-The project was completed for educational purposes to strengthen practical skills in Python programming, data manipulation with Pandas, and exploratory data analysis.
+---
+
+## ⚠️ Disclaimer
+
+This repository contains **my personal solutions** to exercises from the **Data Science Essentials with Python** course offered by **Cisco Networking Academy**.
+
+The original course materials and datasets belong to their respective owners and are included solely for educational purposes.
 
 ---
 
@@ -127,14 +133,6 @@ The project was completed for educational purposes to strengthen practical skill
 **Laura dos Santos Barboza**
 
 GitHub: https://github.com/laurabarboza09282
-
----
-
-## ⚠️ Disclaimer
-
-This repository contains my personal solutions to exercises from the **Data Science Essentials with Python** course offered by **Cisco Networking Academy**.
-
-The original course materials and datasets belong to their respective owners and are shared here solely for educational purposes.
 
 ---
 
