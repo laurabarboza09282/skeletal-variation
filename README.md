@@ -51,8 +51,6 @@ skeletal-variation/
 ├── README.md
 ```
 
----
-
 ## 📊 Example Analysis
 
 Some of the questions explored in this project include:
@@ -74,7 +72,6 @@ ribs = df[df["name"].str.contains("rib", case=False, na=False)]
 print(f"There are {len(ribs)} ribs in the adult human skeleton.")
 ```
 
----
 
 ## 📈 Skills Demonstrated
 
@@ -85,8 +82,6 @@ print(f"There are {len(ribs)} ribs in the adult human skeleton.")
 - String matching with `.str.contains()`
 - Querying and summarizing data
 - Writing clean and readable Python code
-
----
 
 ## 🚀 Getting Started
 
