@@ -6,12 +6,18 @@
 ![Cisco](https://img.shields.io/badge/Cisco-Networking%20Academy-1BA0D7?logo=cisco)
 
 A data analysis project using **Python** and **Pandas** to explore skeletal anatomy datasets and answer biological questions through data analysis.
+
 > Completed as part of the **Data Science Essentials with Python** course by **Cisco Networking Academy**.
+
+---
 
 ## 📖 Project Overview
 
 This project explores the structure of the adult human skeleton and compares skeletal characteristics across species using real datasets.
+
 The analysis focuses on developing fundamental data analysis skills with **Pandas**, including data exploration, filtering, querying, and summarizing information to answer biological questions.
+
+---
 
 ## 🎯 Objectives
 
@@ -21,6 +27,8 @@ The analysis focuses on developing fundamental data analysis skills with **Panda
 - Answer biological questions through data analysis
 - Practice exploratory data analysis (EDA)
 
+---
+
 ## 🛠️ Technologies Used
 
 - Python 3
@@ -28,6 +36,8 @@ The analysis focuses on developing fundamental data analysis skills with **Panda
 - Jupyter Notebook
 - Visual Studio Code
 - Git & GitHub
+
+---
 
 ## 📂 Repository Structure
 
@@ -37,7 +47,11 @@ skeletal-variation/
 ├── skeletal-variation.ipynb
 ├── adult-human-skeleton.csv
 ├── bird-neck-bones.csv
+├── mammal-neck-bones.csv
 ├── README.md
+```
+
+---
 
 ## 📊 Example Analysis
 
@@ -58,6 +72,9 @@ df = pd.read_csv("adult-human-skeleton.csv")
 ribs = df[df["name"].str.contains("rib", case=False, na=False)]
 
 print(f"There are {len(ribs)} ribs in the adult human skeleton.")
+```
+
+---
 
 ## 📈 Skills Demonstrated
 
@@ -68,6 +85,8 @@ print(f"There are {len(ribs)} ribs in the adult human skeleton.")
 - String matching with `.str.contains()`
 - Querying and summarizing data
 - Writing clean and readable Python code
+
+---
 
 ## 🚀 Getting Started
 
@@ -93,16 +112,32 @@ jupyter notebook
 
 Open `skeletal-variation.ipynb` and run the notebook cells.
 
+---
+
 ## 📚 Learning Context
 
-This project was completed as part of the **Data Science Essentials with Python** course offered by **Cisco Networking Academy**. It was designed to strengthen practical skills in Python programming, data manipulation with Pandas, and exploratory data analysis using real-world datasets.
+This repository contains **my solutions** to exercises from the **Data Science Essentials with Python** course offered by **Cisco Networking Academy**.
+
+The project was completed for educational purposes to strengthen practical skills in Python programming, data manipulation with Pandas, and exploratory data analysis.
+
+---
 
 ## 👩‍💻 Author
 
 **Laura dos Santos Barboza**
 
-- GitHub: https://github.com/laurabarboza09282
+GitHub: https://github.com/laurabarboza09282
+
+---
+
+## ⚠️ Disclaimer
+
+This repository contains my personal solutions to exercises from the **Data Science Essentials with Python** course offered by **Cisco Networking Academy**.
+
+The original course materials and datasets belong to their respective owners and are shared here solely for educational purposes.
+
+---
 
 ## ⭐ Acknowledgments
 
-Special thanks to **Cisco Networking Academy** for providing the course content and datasets used in this educational project.
+Special thanks to **Cisco Networking Academy** for providing the course materials and datasets used in this educational project.
